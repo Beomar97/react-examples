@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 15px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 12vw);
+    grid-template-rows: repeat(6, 12vw);
+    width: 84vw;
+    outline: 1px solid black;
+    margin: auto;
+}
+
+@media screen and (min-width: 60em) {
+    .board { 
+        width: 49vw; 
+        grid-template-columns: repeat(7, 7vw);
+        grid-template-rows: repeat(6, 7vw);
+    }
+}

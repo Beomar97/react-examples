@@ -1,0 +1,11 @@
+.field {
+    border: 1px solid black;
+}
+
+.field .red {
+    background-color: red;
+}
+  
+.field .yellow {
+    background-color: yellow;
+}
